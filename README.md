@@ -1,7 +1,5 @@
 #How to run:
 
-ansible-galaxy collection build
+sudo docker build --tag ansible-galaxy:1.0 .
 
-ansible-galaxy collection install ashemyakin-test_mod-1.0.2.tar.gz
-
-ansible-playbook sample.yml -vvv
+sudo docker run ansible-galaxy:1.0
