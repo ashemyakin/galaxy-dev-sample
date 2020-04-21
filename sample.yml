@@ -1,6 +1,6 @@
 - hosts: 127.0.0.1
   collections:
-    - galaxy-dev-sample.test_mod
+    - galaxydevsample.test_mod
   connection: local
 
   tasks:
