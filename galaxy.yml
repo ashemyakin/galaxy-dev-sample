@@ -1,0 +1,15 @@
+namespace: galaxy-dev-sample
+name: test_mod
+version: 1.0.0
+readme: README.md
+authors:
+  - Alex Shemyakin
+description: Test Collection
+license: GPL-3.0-only
+tags:
+  - cloud
+dependencies: {}
+repository: https://github.com/ashemyakin/galaxy-dev-sample
+documentation: https://github.com/ashemyakin/galaxy-dev-sample
+homepage: https://github.com/ashemyakin/galaxy-dev-sample
+issues: https://github.com/ashemyakin/galaxy-dev-sample
