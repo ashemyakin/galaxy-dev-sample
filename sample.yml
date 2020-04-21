@@ -1,6 +1,6 @@
 - hosts: 127.0.0.1
   collections:
-    - galaxydevsample.test_mod
+    - ashemyakin.test_mod
   connection: local
 
   tasks:
