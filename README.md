@@ -1,5 +1,7 @@
 #How to run:
 
-sudo docker build --tag ansible-galaxy:1.0 .
+ansible-galaxy collection build
 
-sudo docker run ansible-galaxy:1.0
+ansible-galaxy collection install ashemyakin-f5_adns-1.0.2.tar.gz
+
+ansible-playbook sample.yml -vvv
